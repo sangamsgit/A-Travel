@@ -1,0 +1,70 @@
+/* Navigation */
+.navbar {
+    flex-direction: column;
+}
+
+.navigation-list {
+    /* flex-direction: column; */
+}
+
+.navbar ul li a {
+    font-size: 0.75rem;
+    padding: 0px;
+    margin: 0px 8px;
+}
+
+.navbar img {
+    height: 16px;
+}
+
+/* Hero */
+.hero-text p {
+    font-size: 0.6rem;
+    text-shadow: 1px 0px #ead1c1;
+}
+
+/* Services */
+.ser-container::before{
+    height: 1425px;
+}
+
+#services {
+    flex-direction: column;
+}
+
+.ser-card {
+    width: unset;
+    margin: 7px 108px;
+}
+
+/* About */
+
+#about::before{
+    height: 538px;
+}
+
+.about-section img {
+    height: 215px;
+    width: 200px;
+    margin-left: 3px;
+
+}
+
+.about-section p {
+    font-size: 0.9rem;
+}
+
+
+/* Contact */
+.contact-box form {
+    width: 100%;
+}
+
+.contact-box button {
+    margin-left: 90px;
+}    
+
+/* Footer */
+footer {
+    font-size: 1.0rem;
+}
