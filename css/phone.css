@@ -28,6 +28,11 @@
     height: 1425px;
 }
 
+.ser-container {
+    margin-top: 100px;
+}
+
+
 #services {
     flex-direction: column;
 }
